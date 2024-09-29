@@ -24,3 +24,8 @@ jobs:
         run : |
           echo "good"
           echo "morning"  
+
+      - name : 깃헙 자체에 저장되어 있는 변수
+        run : |
+          echo $GITHUB_SHA
+          echo $GITHUB_REPOSITORY
