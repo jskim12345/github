@@ -12,4 +12,4 @@ jobs:
 
   steps:
     - name: Hello World찍기
-      run: echo 'Hello, World!'
+      run: echo 'Hello, World!f'
